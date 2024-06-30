@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dysfunctional Etch a Sketch</title>
+    <title>Flexbox Grid of Divs</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container" id = "grid"> 
-
+    <h1>Dysfunctional Etch-a-Sketch</h1>
+    <div class="container">
+        <div id="grid" class="grid-container"></div>
     </div>
+    <button id="erase">Erase</button>
+    <input type="number" id="grid-size" min="2" max="100" value="10">
+    <button id="modify">Change Dimensions</button>
     <script src="script.js"></script>
 </body>
 </html>
